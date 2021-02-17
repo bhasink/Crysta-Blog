@@ -1,0 +1,77 @@
+
+// Responsive css
+ 
+
+@media ( max-width: 991px) {
+
+	// Header 
+
+	.menu-container {
+
+		flex:1;
+	}
+
+	.main-navigation.light li a:hover {
+
+		background: transparent;
+	}
+
+	.attr-nav {
+
+		display:none;
+	}
+}
+
+@media ( max-width: 600px) {
+
+
+	// Header 
+
+
+	.site-title {
+
+		font-size: 42px;
+	}
+
+	.logo-ad-wrapper {
+
+		padding:30px 0;
+	}
+
+	// Banner 
+
+	.fp_content h2, 
+	.full-with-slider 
+	.fp_content h2 {
+
+		font-size: 24px;
+	}
+}
+
+@media ( max-width: 500px) {
+
+	
+	.fp_featured_image {
+
+		height: 400px;
+	}
+
+	.single_page_wrapper .general_single_page_layout .post_desc_and_meta_holder .post_title h2 {
+
+		font-size: 32px;
+	}
+}
+
+
+@media ( max-width: 460px) {
+
+	.site-title {
+
+		font-size: 36px;
+	}
+
+	.fp_featured_image {
+
+		height:380px;
+	}
+}

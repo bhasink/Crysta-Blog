@@ -1,0 +1,77 @@
+.craftblog-activation-notice {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-left: 0 !important;
+	border-top: 1px solid #0085BA;
+}
+
+.craftblog-activation-notice h1 {
+	margin-bottom: 0 !important;
+}
+
+.craftblog-activation-notice p:first-of-type {
+	margin-bottom: 20px !important;
+}
+
+
+/**
+ * Amin Area Custom CSS
+*/
+.craftblog-clearfix:before,
+.craftblog-clearfix:after {
+    content: '';
+    display: table;
+}
+
+.craftblog-clearfix:after {
+    clear: both;
+}
+
+#widget-list [id*='_craftblog_'] .widget-top, 
+#widget-list [id*='_craftblog_'] h3 {
+    background: #0074a2;
+    color: #fff;
+}
+
+/**
+ * Widget Label Custom Design
+*/
+span.field-label {
+    background: #4696b3;
+    display: block;
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.craftblog-single-checkbox {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+/**
+ * Upload image section on widget
+*/
+.widget-content .attachment-media-view{
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 1em 0;
+}
+.widget-content .placeholder{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    border: 1px dashed #b4b9be;
+    box-sizing: border-box;
+    padding: 9px 0;
+    line-height: 20px;
+}
+.widget-content .actions{
+    margin-top: 8px;
+}

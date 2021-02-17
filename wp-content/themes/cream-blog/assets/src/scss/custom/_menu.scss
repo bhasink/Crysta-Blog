@@ -1,0 +1,182 @@
+
+.primary-menu-wrap {
+    
+    position: relative;
+}
+
+.is-sticky .main-menu-wrapper {
+
+    background: #fff;
+    z-index: 999;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.is-sticky .main-navigation ul li a {
+
+    line-height: 54px;
+}
+
+.is-sticky .main-navigation ul li a::after {
+
+    top: 19px;
+}
+
+.main-navigation ul {
+
+    margin: 0;
+    list-style: none;
+}
+
+.main-navigation ul li {
+
+    display: inline-block;
+    position: relative;
+}
+
+.main-navigation ul li a {
+
+    font-size:16px;
+    padding: 0 20px;
+    display: block;
+    line-height: inherit;
+    position: relative;
+}
+
+.main-navigation > ul > li > a {
+    
+    font-size: 14px;
+    font-weight:500;
+    text-transform:uppercase;
+}
+
+.main-navigation ul li:last-child a:after {
+
+    display: none;
+}
+
+
+.main-navigation ul li .sub-menu, 
+.main-navigation ul li .children {
+    
+    display:none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 99999;
+    background: $white;
+    min-width: 250px;
+    text-align: left;
+    opacity: 0;
+    visibility: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -o-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    -ms-box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    animation: 0.4s 0.1s fadeOut both;
+    -moz-animation: 0.4s 0.1s fadeOut both;
+    -webkit-animation: 0.4s 0.1s fadeOut both;
+    -o-animation: 0.4s 0.1s fadeOut both;
+    -ms-animation: 0.4s 0.1s fadeOut both;
+    @include transation_delay();
+}
+
+.main-navigation ul li .sub-menu ul, 
+.main-navigation ul li .children ul {
+
+    left: 100%;
+    top: 0;
+} 
+
+.main-navigation ul li:hover > .sub-menu, 
+.main-navigation ul li:hover > .children {
+    
+    display:block;
+    opacity: 1;
+    visibility: visible;
+    animation: 0.3s 0.1s fadeIn both;
+    -webkit-animation: 0.3s 0.1s fadeIn both;
+    -moz-animation: 0.3s 0.1s fadeIn both;
+    -o-animation: 0.3s 0.1s fadeIn both;
+    -ms-animation: 0.3s 0.1s fadeIn both;
+}
+
+.main-navigation ul li .sub-menu li, 
+.main-navigation ul li .children li {
+
+    display: block;
+    padding: 0;
+}
+
+.main-navigation ul li .sub-menu li a, 
+.main-navigation ul li .children li a {
+
+    padding: 12px 15px;
+    border-bottom: 1px solid $border_color;
+    border-right: none;
+    line-height: 1.4em;
+}
+
+.main-navigation ul li .sub-menu li:last-child a, 
+.main-navigation ul li .children li:last-child a {
+
+    border-bottom:none;
+}
+
+.main-navigation ul li .sub-menu li a:hover, 
+.main-navigation ul li .children li a:hover {
+
+    background:$third_color;
+    color:$white;
+}
+
+.main-navigation>ul>li.menu-item-has-children>a:after {
+
+    content:'\f0d7';
+    font-family:'fontawesome';
+    display:inline-block;
+    font-size:12px;
+    padding-left: 3px;
+}
+
+// toggle menu 
+
+.menu-toggle {
+
+    display: none;
+    padding: 15px 0;
+    font-size: 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    
+    display:block;
+    width:20px;
+    height:4px;
+    margin-bottom: 6px;
+    background:$white;
+    @include transation_delay();
+}
+
+.menu-toggle span:nth-child(2) {
+
+    width:30px;
+}
+
+.menu-toggle span:nth-child(3) {
+
+    width:40px;
+    margin-bottom:0;
+}
+
+body.menu-toggle-active .menu-toggle span {
+
+    width:30px;
+}
+
+.sub-toggle {
+
+    display: none; // large screen hide this
+}

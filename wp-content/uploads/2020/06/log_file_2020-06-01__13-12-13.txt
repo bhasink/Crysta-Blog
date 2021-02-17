@@ -1,0 +1,128 @@
+
+---Downloaded files---
+The import files for: Style Blog Fame Demo were successfully downloaded!
+Initial max execution time = 1200
+Files info:
+Site URL = https://wordpress-163112-1316580.cloudwaysapps.com
+Data file = /home/163112.cloudwaysapps.com/nbdhruxrxb/public_html/wp-content/uploads/2020/06/demo-content-import-file_2020-06-01__13-12-13.xml
+Widget file = /home/163112.cloudwaysapps.com/nbdhruxrxb/public_html/wp-content/uploads/2020/06/demo-widgets-import-file_2020-06-01__13-12-13.json
+Customizer file = /home/163112.cloudwaysapps.com/nbdhruxrxb/public_html/wp-content/uploads/2020/06/demo-customizer-import-file_2020-06-01__13-12-13.dat
+
+------
+Completed AJAX call number: 1
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+------
+Completed AJAX call number: 2
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+------
+Completed AJAX call number: 3
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+------
+Completed AJAX call number: 4
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+
+---Importing content---
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+
+Max execution time after content import = 300
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---Importing widgets---
+Sidebar : 
+
+Search - No Title - Imported
+SB-Sidebar: Author Info - About Author - Imported
+Custom HTML - Advertiement - Imported
+SB: Recent Posts - Recent Posts - Imported
+Archives - No Title - Widget already exists
+Categories - CATEGORY - Imported
+SB: Recent Comments - Recent Comments - Imported
+
+Footer : 
+
+Meta - Wordpress - Imported
+Categories - Category - Imported
+Recent Posts - RECENT POSTS - Imported
+
+Body Bottom Advertisement Area : 
+
+Custom HTML - No Title - Imported
+
+
+
+---et-after-demo-content-import---
+
